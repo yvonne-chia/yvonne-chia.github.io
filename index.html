@@ -394,10 +394,12 @@
         <div class="row">
           <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mpzbzybd" method="post">
             <fieldset id="fs-frm-inputs">
-              <input type="text" name="name" id="name" placeholder="Your name" required="" size="35"><br>
+              <label for="name">Name</label><br>
+              <input type="text" name="name" id="name" required="" size="35"><br>
+              <label for="email-address">Email address</label><br>
               <input type="email" name="_replyto" id="email-address" placeholder="Your email address" required=""size="35"><br>
               <label for="message">Message</label><br>
-              <textarea rows="10" name="message" id="message" placeholder="Your message" required=""cols="35"></textarea>
+              <textarea rows="10" name="message" id="message" required=""cols="35"></textarea>
               <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission"><br>
             </fieldset>
             <button type="submit" class="btn btn-secondary">Submit</button>
